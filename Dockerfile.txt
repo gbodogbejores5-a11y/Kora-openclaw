@@ -1,5 +1,7 @@
 FROM node:20
 RUN npm install -g openclaw
-EXPOSE 18789
-ENV PORT=18789
-CMD ["openclaw", "gateway", "--port", "18789"]
+RUN npm install -g pm2
+EXPOSE 10000
+COPY start.sh .
+RUN chmod +x start.sh
+CMD ["./start.sh"]

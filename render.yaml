@@ -4,4 +4,4 @@ services:
     runtime: image
     repo: https://github.com/gbodogbejores5-a11y/Kora-openclaw
     plan: free
-    port: 18789
+    port: 10000
