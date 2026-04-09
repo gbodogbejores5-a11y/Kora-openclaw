@@ -1,0 +1,4 @@
+FROM node:20
+RUN npm install -g openclaw
+EXPOSE 18789
+CMD ["openclaw", "gateway", "--port", "18789"]

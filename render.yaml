@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: kora-agd
+    runtime: image
+    repo: https://github.com/gbodogbejores5-a11y/Kora-openclaw
+    plan: free
