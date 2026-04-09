@@ -1,0 +1,10 @@
+{
+  "name": "kora-agd",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "openclaw gateway --port 10000"
+  },
+  "dependencies": {
+    "openclaw": "latest"
+  }
+}
